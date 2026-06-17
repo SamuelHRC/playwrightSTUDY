@@ -11,7 +11,7 @@ test("Xpath demo in playwright", async ({page}) => {
 
     //2. Relative xpath
    const relativelogo: Locator = page.locator("//img[@alt='Tricentis Demo Web Shop']")
-    await expect(relativelogo).toBeVisible();
+   await expect(relativelogo).toBeVisible();
 
     //3. contains(): o caminho do exemplo contem mais de um elemento.
     /*
